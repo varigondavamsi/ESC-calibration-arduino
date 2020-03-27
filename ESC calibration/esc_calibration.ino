@@ -8,7 +8,7 @@ Servo esc;//Creating a servo class with name as esc
 
 void setup()
 {
-  esc.attach(8);//Specify the esc signal pin,Here as D8
+  esc.attach(9);//Specify the esc signal pin,Here as D9
   esc.writeMicroseconds(2000);//initialize the signal to 1000
   delay(3000);
   esc.writeMicroseconds(1000);
